@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Sign-Up</title>
+    <style>
+        input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+    </style>
+</head>
+<body background="back.jpg">
+
+    <nav>
+        <a href="homepage.html">Home</a></li>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="database.html">Database</a>
+    </nav>
+
+    <div class="verification_section">
+        <h1 class="form_title">Sign Up</h1>
+        <br>
+        <br>
+        <form action="sign_up.html" method="post">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" class="text_input" placeholder="type your name here.......">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" class="text_input" placeholder="enter your email here .......">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" class="text_input" placeholder="enter a password here .......">
+            </div>
+            <div>
+                <label>Password Confirm</label>
+                <input type="password" name="password" class="text_input" placeholder="enter the password again .......">
+            </div>
+            <br>        
+            <div>
+                <button type="submit" name="register_btn" class="button btn_big">Register</button>
+            </div>
+            <br>
+            <p>Or <a href="login.html">Existing User? | Login</a></p>
+            <br>
+        </form>
+    </div>
+
+</body>
+</html>
